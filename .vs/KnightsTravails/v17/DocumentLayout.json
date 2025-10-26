@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravails\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7B7A8F-DA47-491E-B05B-BD15293DB293}|KnightsTravails.vcxproj|C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravails\\KnightsTravails.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D7B7A8F-DA47-491E-B05B-BD15293DB293}|KnightsTravails.vcxproj|solutionrelative:KnightsTravails.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KnightsTravails.cpp",
+              "DocumentMoniker": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravails\\KnightsTravails.cpp",
+              "RelativeDocumentMoniker": "KnightsTravails.cpp",
+              "ToolTip": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravails\\KnightsTravails.cpp",
+              "RelativeToolTip": "KnightsTravails.cpp",
+              "ViewState": "AgIAALQAAAAAAAAAAAAcwNMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-26T10:03:14.604Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
