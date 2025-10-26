@@ -1,15 +1,22 @@
 
 #include <iostream>
-
+#include <algorithm>
 #include <list>
-
 #include<string>
+#include <vector>
 
 using namespace std;
 
 struct Position {
 	int x;
 	int y;
+};
+
+struct PrintablePositions {
+	int x;
+	int y;
+	int index;
+
 };
 
 class Square
@@ -166,6 +173,81 @@ static list<Position> KnightMoves(Position start, Position end)
 	return final;
 }
 
+void PrintBoard(list<Position> positions)
+{
+	int x = 0;
+	int y = 0;
+	int positionIndex = 0;
+	Position pos = positions.front();
+
+	vector<PrintablePositions> finalPositions;
+	std::list<Position>::iterator it;
+	for (it = positions.begin(); it != positions.end(); ++it)
+	{
+		finalPositions.push_back({ it->x, it->y, positionIndex });
+		positionIndex++;
+	}
+
+	string printToken = "s";
+	for (int i = 0; i < 17; i++)
+	{
+		if (i % 2 != 0)
+		{
+			for (int j = 0; j < 8; j++)
+			{
+				bool match = false;
+				if (j < 7)
+				{
+					for (unsigned int posIndex = 0; posIndex < finalPositions.size(); posIndex++)
+					{
+						if (finalPositions[posIndex].x == x && finalPositions[posIndex].y == y)
+						{
+							match = true;
+							cout << "| " + to_string(finalPositions[posIndex].index) + " ";
+							continue;
+						}
+					}
+					if (match) {
+						x++;
+						continue;
+					}
+					cout << "|   ";
+					x++;
+					continue;
+				}
+				for (unsigned int posIndex = 0; posIndex < finalPositions.size(); posIndex++)
+				{
+					if (finalPositions[posIndex].x == x && finalPositions[posIndex].y == y)
+					{
+						match = true;
+						cout << "| " + to_string(finalPositions[posIndex].index) + " |\n";
+						continue;
+					}
+				}
+				if (match) {
+					y++;
+					x = 0;
+					continue;
+				}
+				cout << "|   |\n";
+				y++;
+				x = 0;
+			}
+			continue;
+		}
+		for (int ch = 0; ch < 8; ch++)
+		{
+			if (ch < 7)
+			{
+				cout << ".___";
+				continue;
+			}
+			cout << ".___.\n";
+		}
+	}
+}
+
+
 Position GetUserInput(string inputType)
 {
 	int x;
@@ -181,9 +263,13 @@ void Run()
 {
 	Position start = GetUserInput("starting");
 	Position end = GetUserInput("final");
+	cout << "These are the start (0) and end (1) position:\n";
+	PrintBoard({ start, end });
 	list<Position> answer = KnightMoves(start, end);
 	string answerString = "";
 	size_t size = answer.size();
+	cout << "Here are the squares the Knight visited\n";
+	PrintBoard(answer);
 	for (int i = 0; i < size; i++)
 	{
 		Position currentPos = answer.front();
@@ -198,6 +284,8 @@ void Run()
 	cout << answerString + '\n';
 }
 
+
+
 int main()
 {
 	bool finished = false;
@@ -205,7 +293,7 @@ int main()
 	{
 		string exit;
 		Run();
-		cout << "Press E key to exit program.";
+		cout << "Press E key to exit program, or any other key to continue.";
 		cin >> exit;
 		if (exit == "E" || exit == "e")
 		{
