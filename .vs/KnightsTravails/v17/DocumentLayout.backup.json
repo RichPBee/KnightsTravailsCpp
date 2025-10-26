@@ -1,10 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravails\\",
+  "WorkspaceRootPath": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravailsCpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D7B7A8F-DA47-491E-B05B-BD15293DB293}|KnightsTravails.vcxproj|C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravails\\KnightsTravails.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2D7B7A8F-DA47-491E-B05B-BD15293DB293}|KnightsTravails.vcxproj|C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravailsCpp\\KnightsTravails.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2D7B7A8F-DA47-491E-B05B-BD15293DB293}|KnightsTravails.vcxproj|solutionrelative:KnightsTravails.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7B7A8F-DA47-491E-B05B-BD15293DB293}|KnightsTravails.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.41.34120\\INCLUDE\\XMEMORY||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\list||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +20,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "xmemory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
+              "ViewState": "AgIAAJUIAAAAAAAAAIAwwKgIAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-26T14:18:14.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "list",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\list",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\list",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\list",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\list",
+              "ViewState": "AgIAAKYEAAAAAAAAAAAtwLgEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-26T13:30:04.593Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "KnightsTravails.cpp",
-              "DocumentMoniker": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravails\\KnightsTravails.cpp",
+              "DocumentMoniker": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravailsCpp\\KnightsTravails.cpp",
               "RelativeDocumentMoniker": "KnightsTravails.cpp",
-              "ToolTip": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravails\\KnightsTravails.cpp",
+              "ToolTip": "C:\\Users\\lalbo\\source\\repos\\KnightsTravailsCpp\\KnightsTravailsCpp\\KnightsTravails.cpp",
               "RelativeToolTip": "KnightsTravails.cpp",
-              "ViewState": "AgIAALQAAAAAAAAAAAAcwNMAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAgwNAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-26T10:03:14.604Z",
               "EditorCaption": ""
